@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D41795D15C3579C000881EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D41795C15C3579C000881EF /* UIKit.framework */; };
+		0D41795F15C3579C000881EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D41795E15C3579C000881EF /* Foundation.framework */; };
+		0D41796115C3579C000881EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D41796015C3579C000881EF /* CoreGraphics.framework */; };
+		0D41796715C3579C000881EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D41796515C3579C000881EF /* InfoPlist.strings */; };
+		0D41796915C3579C000881EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D41796815C3579C000881EF /* main.m */; };
+		0D41796D15C3579C000881EF /* roiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D41796C15C3579C000881EF /* roiAppDelegate.m */; };
+		0D41797015C3579C000881EF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D41796E15C3579C000881EF /* MainStoryboard.storyboard */; };
+		0D41797315C3579C000881EF /* roiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D41797215C3579C000881EF /* roiViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D41795815C3579C000881EF /* rgbpicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rgbpicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D41795C15C3579C000881EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0D41795E15C3579C000881EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0D41796015C3579C000881EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0D41796415C3579C000881EF /* rgbpicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "rgbpicker-Info.plist"; sourceTree = "<group>"; };
+		0D41796615C3579C000881EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0D41796815C3579C000881EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D41796A15C3579C000881EF /* rgbpicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "rgbpicker-Prefix.pch"; sourceTree = "<group>"; };
+		0D41796B15C3579C000881EF /* roiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = roiAppDelegate.h; sourceTree = "<group>"; };
+		0D41796C15C3579C000881EF /* roiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = roiAppDelegate.m; sourceTree = "<group>"; };
+		0D41796F15C3579C000881EF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0D41797115C3579C000881EF /* roiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = roiViewController.h; sourceTree = "<group>"; };
+		0D41797215C3579C000881EF /* roiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = roiViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D41795515C3579C000881EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D41795D15C3579C000881EF /* UIKit.framework in Frameworks */,
+				0D41795F15C3579C000881EF /* Foundation.framework in Frameworks */,
+				0D41796115C3579C000881EF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D41794D15C3579C000881EF = {
+			isa = PBXGroup;
+			children = (
+				0D41796215C3579C000881EF /* rgbpicker */,
+				0D41795B15C3579C000881EF /* Frameworks */,
+				0D41795915C3579C000881EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D41795915C3579C000881EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D41795815C3579C000881EF /* rgbpicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D41795B15C3579C000881EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D41795C15C3579C000881EF /* UIKit.framework */,
+				0D41795E15C3579C000881EF /* Foundation.framework */,
+				0D41796015C3579C000881EF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D41796215C3579C000881EF /* rgbpicker */ = {
+			isa = PBXGroup;
+			children = (
+				0D41796B15C3579C000881EF /* roiAppDelegate.h */,
+				0D41796C15C3579C000881EF /* roiAppDelegate.m */,
+				0D41796E15C3579C000881EF /* MainStoryboard.storyboard */,
+				0D41797115C3579C000881EF /* roiViewController.h */,
+				0D41797215C3579C000881EF /* roiViewController.m */,
+				0D41796315C3579C000881EF /* Supporting Files */,
+			);
+			path = rgbpicker;
+			sourceTree = "<group>";
+		};
+		0D41796315C3579C000881EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D41796415C3579C000881EF /* rgbpicker-Info.plist */,
+				0D41796515C3579C000881EF /* InfoPlist.strings */,
+				0D41796815C3579C000881EF /* main.m */,
+				0D41796A15C3579C000881EF /* rgbpicker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D41795715C3579C000881EF /* rgbpicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D41797615C3579C000881EF /* Build configuration list for PBXNativeTarget "rgbpicker" */;
+			buildPhases = (
+				0D41795415C3579C000881EF /* Sources */,
+				0D41795515C3579C000881EF /* Frameworks */,
+				0D41795615C3579C000881EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rgbpicker;
+			productName = rgbpicker;
+			productReference = 0D41795815C3579C000881EF /* rgbpicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D41794F15C3579C000881EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = roi;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Vijay Selvaraj";
+			};
+			buildConfigurationList = 0D41795215C3579C000881EF /* Build configuration list for PBXProject "rgbpicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0D41794D15C3579C000881EF;
+			productRefGroup = 0D41795915C3579C000881EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D41795715C3579C000881EF /* rgbpicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D41795615C3579C000881EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D41796715C3579C000881EF /* InfoPlist.strings in Resources */,
+				0D41797015C3579C000881EF /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D41795415C3579C000881EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D41796915C3579C000881EF /* main.m in Sources */,
+				0D41796D15C3579C000881EF /* roiAppDelegate.m in Sources */,
+				0D41797315C3579C000881EF /* roiViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0D41796515C3579C000881EF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D41796615C3579C000881EF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0D41796E15C3579C000881EF /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D41796F15C3579C000881EF /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D41797415C3579C000881EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0D41797515C3579C000881EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D41797715C3579C000881EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rgbpicker/rgbpicker-Prefix.pch";
+				INFOPLIST_FILE = "rgbpicker/rgbpicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0D41797815C3579C000881EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rgbpicker/rgbpicker-Prefix.pch";
+				INFOPLIST_FILE = "rgbpicker/rgbpicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D41795215C3579C000881EF /* Build configuration list for PBXProject "rgbpicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D41797415C3579C000881EF /* Debug */,
+				0D41797515C3579C000881EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D41797615C3579C000881EF /* Build configuration list for PBXNativeTarget "rgbpicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D41797715C3579C000881EF /* Debug */,
+				0D41797815C3579C000881EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D41794F15C3579C000881EF /* Project object */;
+}
