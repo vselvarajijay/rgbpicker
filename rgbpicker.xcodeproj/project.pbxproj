@@ -15,6 +15,15 @@
 		0D41796D15C3579C000881EF /* roiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D41796C15C3579C000881EF /* roiAppDelegate.m */; };
 		0D41797015C3579C000881EF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D41796E15C3579C000881EF /* MainStoryboard.storyboard */; };
 		0D41797315C3579C000881EF /* roiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D41797215C3579C000881EF /* roiViewController.m */; };
+		0D41798215C358B4000881EF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D41798115C358B4000881EF /* AVFoundation.framework */; };
+		0D41798415C35B8F000881EF /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D41798315C35B8F000881EF /* CoreMedia.framework */; };
+		0D41798615C35BC6000881EF /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D41798515C35BC6000881EF /* CoreVideo.framework */; };
+		0D41798815C35BD5000881EF /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D41798715C35BD5000881EF /* CoreImage.framework */; };
+		0D41798A15C35D56000881EF /* bottombar.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D41798915C35D56000881EF /* bottombar.png */; };
+		0D41799415C36544000881EF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D41799315C36544000881EF /* AudioToolbox.framework */; };
+		0D41799815C365A4000881EF /* waterdrop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D41799715C365A4000881EF /* waterdrop.mp3 */; };
+		0D4179A715C49397000881EF /* ImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4179A615C49397000881EF /* ImageUtil.m */; };
+		0D4179AA15C4A385000881EF /* VideoUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4179A915C4A385000881EF /* VideoUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +40,17 @@
 		0D41796F15C3579C000881EF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		0D41797115C3579C000881EF /* roiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = roiViewController.h; sourceTree = "<group>"; };
 		0D41797215C3579C000881EF /* roiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = roiViewController.m; sourceTree = "<group>"; };
+		0D41798115C358B4000881EF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0D41798315C35B8F000881EF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		0D41798515C35BC6000881EF /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		0D41798715C35BD5000881EF /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		0D41798915C35D56000881EF /* bottombar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bottombar.png; path = ../../../../Downloads/bottombar.png; sourceTree = "<group>"; };
+		0D41799315C36544000881EF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0D41799715C365A4000881EF /* waterdrop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = waterdrop.mp3; path = "../../../../Downloads/1126-Water Drop-SoundBible.com-2039669379/mp3/waterdrop.mp3"; sourceTree = "<group>"; };
+		0D4179A515C49397000881EF /* ImageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUtil.h; sourceTree = "<group>"; };
+		0D4179A615C49397000881EF /* ImageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUtil.m; sourceTree = "<group>"; };
+		0D4179A815C4A385000881EF /* VideoUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoUtil.h; sourceTree = "<group>"; };
+		0D4179A915C4A385000881EF /* VideoUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,9 +58,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D41799415C36544000881EF /* AudioToolbox.framework in Frameworks */,
+				0D41798815C35BD5000881EF /* CoreImage.framework in Frameworks */,
+				0D41798615C35BC6000881EF /* CoreVideo.framework in Frameworks */,
+				0D41796115C3579C000881EF /* CoreGraphics.framework in Frameworks */,
+				0D41798415C35B8F000881EF /* CoreMedia.framework in Frameworks */,
+				0D41798215C358B4000881EF /* AVFoundation.framework in Frameworks */,
 				0D41795D15C3579C000881EF /* UIKit.framework in Frameworks */,
 				0D41795F15C3579C000881EF /* Foundation.framework in Frameworks */,
-				0D41796115C3579C000881EF /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +75,11 @@
 		0D41794D15C3579C000881EF = {
 			isa = PBXGroup;
 			children = (
+				0D41799315C36544000881EF /* AudioToolbox.framework */,
+				0D41798715C35BD5000881EF /* CoreImage.framework */,
+				0D41798515C35BC6000881EF /* CoreVideo.framework */,
+				0D41798315C35B8F000881EF /* CoreMedia.framework */,
+				0D41798115C358B4000881EF /* AVFoundation.framework */,
 				0D41796215C3579C000881EF /* rgbpicker */,
 				0D41795B15C3579C000881EF /* Frameworks */,
 				0D41795915C3579C000881EF /* Products */,
@@ -77,12 +107,18 @@
 		0D41796215C3579C000881EF /* rgbpicker */ = {
 			isa = PBXGroup;
 			children = (
+				0D41799715C365A4000881EF /* waterdrop.mp3 */,
+				0D41798915C35D56000881EF /* bottombar.png */,
 				0D41796B15C3579C000881EF /* roiAppDelegate.h */,
 				0D41796C15C3579C000881EF /* roiAppDelegate.m */,
 				0D41796E15C3579C000881EF /* MainStoryboard.storyboard */,
 				0D41797115C3579C000881EF /* roiViewController.h */,
 				0D41797215C3579C000881EF /* roiViewController.m */,
 				0D41796315C3579C000881EF /* Supporting Files */,
+				0D4179A515C49397000881EF /* ImageUtil.h */,
+				0D4179A615C49397000881EF /* ImageUtil.m */,
+				0D4179A815C4A385000881EF /* VideoUtil.h */,
+				0D4179A915C4A385000881EF /* VideoUtil.m */,
 			);
 			path = rgbpicker;
 			sourceTree = "<group>";
@@ -152,6 +188,8 @@
 			files = (
 				0D41796715C3579C000881EF /* InfoPlist.strings in Resources */,
 				0D41797015C3579C000881EF /* MainStoryboard.storyboard in Resources */,
+				0D41798A15C35D56000881EF /* bottombar.png in Resources */,
+				0D41799815C365A4000881EF /* waterdrop.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +203,8 @@
 				0D41796915C3579C000881EF /* main.m in Sources */,
 				0D41796D15C3579C000881EF /* roiAppDelegate.m in Sources */,
 				0D41797315C3579C000881EF /* roiViewController.m in Sources */,
+				0D4179A715C49397000881EF /* ImageUtil.m in Sources */,
+				0D4179AA15C4A385000881EF /* VideoUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +320,7 @@
 				0D41797815C3579C000881EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,33 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
+#import <AudioToolbox/AudioToolbox.h>
+#import "ImageUtil.h"
 
-@interface roiViewController : UIViewController
+
+@interface roiViewController : UIViewController <AVCaptureVideoDataOutputSampleBufferDelegate> {
+    ImageUtil *imgUtil;
+}
+
+@property (nonatomic, retain) AVCaptureSession *captureSession;
+@property (nonatomic, retain) IBOutlet UIView *uiView;
+@property (nonatomic, retain) IBOutlet UIView *headerView;
+@property (nonatomic, retain) IBOutlet UIView *colorPallet;
+
+
+@property (nonatomic, retain) IBOutlet UILabel *rValue;
+@property (nonatomic, retain) IBOutlet UILabel *gValue;
+@property (nonatomic, retain) IBOutlet UILabel *bValue;
+@property (nonatomic, retain) IBOutlet UILabel *hexValue;
+
+@property (nonatomic, retain) IBOutlet UIImageView *bottomBar;
+@property (nonatomic, retain) IBOutlet UIImageView *imgSample;
+
+
+
+
+
+-(IBAction)buttonPressed:(id)sender;
 
 @end

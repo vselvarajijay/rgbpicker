@@ -7,7 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface VideoUtil : NSObject
+@interface VideoUtil : NSObject {
+    
+}
+
+
+-(UIImage *) imageFromSampleBuffer:(CMSampleBufferRef) sampleBuffer;
+
+
+
 
 @end
