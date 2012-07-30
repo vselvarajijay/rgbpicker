@@ -165,10 +165,14 @@
         CGRect croppedSection = CGRectMake((img_width/2)-view_width/2, (img_height/2)-view_height/2, view_width/2, view_height/2);
         CGImageRef imageRef = CGImageCreateWithImageInRect(img, croppedSection);
         
-        [imgSample setImage:[UIImage imageWithCGImage:imageRef]];
+        UIImage *sampleImg = [UIImage imageWithCGImage:imageRef];
+        [imgSample setImage:sampleImg];
     
+        
 
-        UIColor *color = [imgUtil getPixelColorAtLocation:imageRef:CGPointMake(3,3)];
+
+
+        UIColor *color = [imgUtil getPixelColorAtLocation:imageRef:CGPointMake(sampleImg.size.width/2,sampleImg.size.height/2)];
         [colorPallet setBackgroundColor:color];
         [colorPallet setOpaque:FALSE];
 
